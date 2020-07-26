@@ -1,13 +1,13 @@
 package ec.edu.espe.todoapp
 
 /**
- * Singleton application object
+ * Application class
  *
  * @author Jonathan Andres J.
  */
 object Application {
     @JvmStatic
     fun main(args: Array<String>) {
-
+        println("hello world")
     }
 }
