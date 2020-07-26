@@ -16,7 +16,7 @@
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin.compiler.jvmTarget>1.8</kotlin.compiler.jvmTarget>
         <junit.version>4.12</junit.version>
-        <main.class>ec.edu.espe.todoapp.MainKt</main.class>
+        <main.class>ec.edu.espe.todoapp.Application</main.class>
     </properties>
 
     <dependencies>
