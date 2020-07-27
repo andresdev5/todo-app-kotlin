@@ -1,13 +1,11 @@
 package ec.edu.espe.todoapp
 
-/**
- * Application class
- *
- * @author Jonathan Andres J.
- */
+import ec.edu.espe.todoapp.controller.TodoController
+
 object Application {
     @JvmStatic
     fun main(args: Array<String>) {
-        println("hello world")
+        val controller: TodoController = TodoController()
+        controller.main()
     }
 }
